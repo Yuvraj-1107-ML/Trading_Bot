@@ -1,0 +1,6 @@
+# Python caches
+__pycache__/
+*.pyc
+
+logs/
+*.trading_bot.log
