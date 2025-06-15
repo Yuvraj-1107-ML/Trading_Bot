@@ -102,18 +102,40 @@ Then open [http://127.0.0.1:5000](http://127.0.0.1:5000) in your browser.
 
 ---
 
+##  Deployment
+
+This project can be deployed on a cloud service like [Render](https://render.com) for demonstration purposes.
+
+**Note:**  
+Due to Binance API restrictions, requests from cloud servers may be blocked for security reasons.  
+To fully test API calls, it's recommended to run the bot **locally** on your own machine or a trusted IP.
+
+✅ **Live Demo:**  
+You can check the deployed UI here: [View Demo](https://trading-bot-cli2.onrender.com)
+
+
+
+
 ## 🖼️ Demo User Interface
 
 Below is an example of the web interface for placing orders and viewing bot status:
 
-![Demo Screenshot](screenshot.png)
+![Demo Screenshot](images/s1.png)
 
-> **Tip:** Replace `screenshot.png` with your own UI screenshot!
+![Demo Screenshot](images/s4.png)
+
+![Demo Screenshot](images/s2.png)
+
+![Demo Screenshot](images/s3.png)
+
+
+
+
 
 ---
 
 
-## ⚠️ Disclaimer
+##  Disclaimer
 
 * This bot **only uses the Binance Testnet** — no real money involved.
 * **Do NOT use with real funds.**
@@ -123,15 +145,9 @@ Below is an example of the web interface for placing orders and viewing bot stat
 
 ---
 
-## ✉️ Contact
+## Contact
 
 Feel free to reach out for feedback, looking forward to your response
 
 
 ---
-
-## ✅ Next Steps
-
-* 📌 Replace `YOUR_TESTNET_API_KEY` and `YOUR_TESTNET_API_SECRET` in `config.py`.
-* 📸 Add your own screenshot named `screenshot.png`.
-* 🏁 Test and modify the bot logic to fit your strategy!
